@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<h1 class="text-center text-6xl mt-10">Simple Calculator By Sifat</h1>
+
+<body>
+    <section>
+        <div class=" text-center mt-10">
+            <div class="w-3/6 mx-auto">
+                <h2 id="result" class="text-5xl p-5">data</h2>
+            </div>
+        </div>
+        <div class="mt-10 grid grid-rows-2 grid-flow-col gap-4">
+            <input id="firstData" class="border-2 border-black p-5 mx-auto rounded-lg " type="text"
+                placeholder="Enter your 1st number">
+            <input id="secData" class="border-2 border-black p-5 mx-auto rounded-lg" type="text"
+                placeholder="Enter your 2nd number">
+        </div>
+        <div class="grid grid-cols-4 grid-flow-col gap-4 w-2/4 mx-auto mt-10">
+            <button id="plus" class="bg-yellow-400 p-5 rounded-lg text-4xl font-bold hover:bg-sky-700">+</button>
+            <button id="minus" class="bg-yellow-400 p-5 rounded-lg text-4xl font-bold hover:bg-sky-700">-</button>
+            <button id="multi" class="bg-yellow-400 p-5 rounded-lg text-4xl font-bold hover:bg-sky-700">*</button>
+            <button id="division" class="bg-yellow-400 p-5 rounded-lg text-4xl font-bold hover:bg-sky-700">/</button>
+        </div>
+    </section>
+    <script src="./calculator.js"></script>
+
+</body>
+
+</html>
